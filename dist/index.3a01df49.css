@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+form {
+  color: red;
+}
+
+.container {
+  background-color: #fff;
+  padding: 50px;
+}
+
+input[type="text"], input[type="password"], textarea {
+  background: #80808046;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  margin: 5px 0 22px;
+  padding: 15px;
+  display: inline-block;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  background-color: #ff00000a;
+  outline: none;
+}
+
+div {
+  padding: 10px 0;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  color: #fff;
+  cursor: pointer;
+  opacity: .9;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  margin: 8px 0;
+  padding: 16px 20px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a.rbfr {
+  color: red;
+  text-decoration: none;
+}
+
+.down-btns {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.triangle {
+  background: red;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+}
+
+.triangle--up {
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+  top: 0;
+  left: 0;
+}
+
+.triangle--down {
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+  bottom: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
