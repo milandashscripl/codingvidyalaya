@@ -4,10 +4,16 @@
   "description": "��#\u0000 \u0000c\u0000o\u0000d\u0000i\u0000n\u0000g\u0000v\u0000i\u0000d\u0000y\u0000a\u0000l\u0000a\u0000y\u0000a\u0000\r\u0000 \u0000",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"parcel build index.html",
+    "build": "parcel build index.html",
     "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "parcel": "^2.11.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "main": "index.js"
 }
