@@ -120,15 +120,20 @@ html{
   .search form input{
     margin: 0;
     background: white;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
   }
   .search form button{
     width: 30%;
-    background: white;
-    border: 1px solid red;
+    background: black;
     height: 100%;
+    border: none;
+    outline: none;
   }
   .search form button .fa{
-    color: red;
+    color: white;
   }
   .profile{
     width: 30px;
