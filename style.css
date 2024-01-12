@@ -206,6 +206,9 @@ html{
   .main_sidebar--show ul li a{
     text-decoration: none;
     color: red;
+    max-lines: 1;
+    white-space: nowrap;
+    text-overflow: "_";
   }
   .main_sidebar--show ul li a .sidebar_icon{
     color: red;
@@ -242,7 +245,7 @@ html{
       display: none;
     }
     .main_sidebar--show{
-      width: 50%;
+      width: 70%;
       position: fixed;
       height: calc(100vh - 50px);
       top: 50px;
