@@ -207,6 +207,10 @@ html{
     text-decoration: none;
     color: red;
   }
+  .main_sidebar--show ul li a .sidebar_icon{
+    color: red;
+    margin-right: 10px;
+  }
   .main_body{
     width: 100%;
     height: calc(100vh - 50px);
@@ -250,6 +254,9 @@ html{
       border-bottom: 1px solid white;
     }
     .main_sidebar--show ul li a{
+      color: white;
+    }
+    .main_sidebar--show ul li a .sidebar_icon{
       color: white;
     }
     .profile_menu--show{
